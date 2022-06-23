@@ -146,12 +146,6 @@
 
 
 @media screen and (max-width: 720px) {
-    .navibar {
-        position: -webkit-sticky;
-        /* Safari */
-        position: sticky;
-    }
-
     .navbar ul {
         display: flex;
         flex-direction: column;

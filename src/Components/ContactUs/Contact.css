@@ -1,0 +1,121 @@
+/* -======= Contact =====- */
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-top: 60px; */
+    margin-top: 5rem;
+    padding-top: 6rem;
+}
+.contact-text {
+    flex-basis: 48%;
+}
+.contact-text h1{
+    color: #fff;
+    font-weight: 600;
+}
+
+.contact-text p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-right: 170px;
+    color: #fff;
+}
+
+.contact-text h6 {
+    color: var(--dar-blue-color);
+    color: #fff;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.contact-form {
+    flex-basis: 48%;
+}
+
+
+.cont .contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.cont .contact-form form label {
+    font-size: 30px;
+    padding: 10px 0;
+
+    color: #fff;
+}
+
+.cont .contact-form form input,
+.cont .contact-form form textarea {
+    font-size: var(--medium-font-size);
+    padding: 20px 25px;
+    resize: none;
+    width: 100%;
+    margin: 6px 0;
+    border-radius: 12px;
+    outline: none;
+    border: 2px solid var(--grey-color);
+}
+
+.cont .contact-form form input[type="submit"] {
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 20px 25px;
+    background: linear-gradient(122.33deg, #68bed1 30.62%, #1e94e9 100%);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    transition: all 0.3s linear;
+}
+
+.cont .contact-form form input[type="submit"]:hover {
+    background-color: var(--primary-color);
+    color: var(--dar-blue-color);
+    font-weight: 600;
+}
+
+
+/* -======= Media Queriers =====- */
+
+@media (max-width: 500px) {
+    .cont {
+        display: block;
+        flex-direction: column;
+    }
+    .contact {
+        padding-top: 0;
+    }
+    .cont .contact-form form input,
+    .cont .contact-form form textarea {
+        width: 100%;
+    }
+    .cont .contact-form form input[type="submit"] {
+        width: 23%;
+        font-size: var(--small-font-size);
+    }
+    .contact-text p {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+    .cont {
+        display: block;
+        flex-direction: column;
+    }
+    .contact {
+        padding-top: 0;
+    }
+    .cont .contact-form form input,
+    .cont .contact-form form textarea {
+        width: 100%;
+    }
+    .cont .contact-form form input[type="submit"] {
+        width: 23%;
+        font-size: var(--small-font-size);
+    }
+    .contact-text p {
+        margin-right: 0;
+    }
+}

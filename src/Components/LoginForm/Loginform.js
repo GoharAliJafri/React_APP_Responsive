@@ -4,18 +4,16 @@ import "./Loginform.css";
 const Loginform = () => {
   return (
     <div>
-        <div className="flex-r login-wrapper rflex ">
-          <div className="login-text">
+      <div className="flex-r container">
+        <div className="flex-r login-wrapper">
+          <div className="login-text logform">
             <div className="logo">
-              <span>
-                <i className="fab fa-speakap"></i>
-              </span>
-              <span>Coders</span>
+            <img src={"./Log3.png"} alt="img" className="logo" />
             </div>
             <h1>Sign Up</h1>
             <p>It's not long before you embark on this journey! </p>
 
-            <form className="flex-c cflex">
+            <form className="flex-c">
               <div className="input-box">
                 <span className="label">E-mail</span>
                 <div className=" flex-r input">
@@ -34,10 +32,10 @@ const Loginform = () => {
 
               <div className="check">
                 <input type="checkbox" name="" id="" />
-                <span>I've read and agree with T & C</span>
+                <span>I've read and agree with T&C</span>
               </div>
 
-              <input className="btn1" type="submit" value="Create an Account" />
+              <input className="btn" type="submit" value="Create an Account" />
               <span className="extra-line">
                 <span>Already have an account?</span>
                 <a href="/">Sign In</a>
@@ -46,6 +44,7 @@ const Loginform = () => {
           </div>
         </div>
       </div>
+    </div>
   );
 };
 

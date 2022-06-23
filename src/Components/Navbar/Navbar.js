@@ -42,13 +42,13 @@ export function Navbar() {
               <a href="/Loginform">Login Form</a>
             </li>
             <li className="nav-item">
-              <a href="/">Table</a>
+              <a href="/table">Table</a>
             </li>
             <li className="nav-item">
-              <a href="/">About Us</a>
+              <a href="/about">About Us</a>
             </li>
             <li className="nav-item">
-              <a href="/">Contact Us</a>
+              <a href="/contact">Contact Us</a>
             </li>
           </ul>
         </div>

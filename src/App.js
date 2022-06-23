@@ -3,6 +3,11 @@ import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import Loginform from './Components/LoginForm/Loginform';
 import Test from './Components/test';
+import About from './Components/AboutUs/About';
+import Contact from './Components/ContactUs/Contact';
+import Table from './Components/Table/Table';
+
+
 
 
 
@@ -19,7 +24,15 @@ function App() {
     case "/test":
       component = <Test />
       break
-    
+    case "/about":
+      component = <About />
+      break
+    case "/contact":
+        component = <Contact />
+        break
+    case "/table":
+        component = <Table />
+        break
   }
   return (
     <>
